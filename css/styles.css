@@ -11,7 +11,10 @@ li {
 body{
 font-family: 'Roboto','Raleway', sans-serif;
 color: var(--main-color);
-padding: 0 auto;
+}
+
+.nav-menu{
+    height: 80px;
 }
 
 /* font-family: 'Raleway',sans-serif;
