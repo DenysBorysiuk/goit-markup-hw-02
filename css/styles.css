@@ -2,7 +2,11 @@
     --brand-color: #3f51b5;
 }
 
+body{
+font-family: 'Roboto','Raleway', sans-serif;
+}
+
+
 /* .section {
-    /* Другие стили */
     border: 2px solid var(--brand-color);
-} */
+/*
