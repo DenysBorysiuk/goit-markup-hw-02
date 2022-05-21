@@ -79,7 +79,7 @@ body {
     line-height: 1,16;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--main-font-color);
+    
 }
 
 .logo {
@@ -239,7 +239,7 @@ color: var(--main-light);
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color: var(--main-font-color);
+   
    }
 
    .projects-text {
