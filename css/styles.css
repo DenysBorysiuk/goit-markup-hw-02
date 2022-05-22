@@ -212,25 +212,25 @@ background-color: var(--main-bg-color);
     border: none;
 }
 
-    .filter-btn:hover,
-    .filter-btn:focus,
-    .filter-btn:active {
-        background-color: var(--acent-color);
-        color: var(--main-light);
-    }
+.filter-btn:hover,
+.filter-btn:focus,
+.filter-btn:active {
+    background-color: var(--acent-color);
+    color: var(--main-light);
+}
     
 
    /* projects */
 
-   .projects-title {
+.projects-title {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
    
-   }
+}
 
-   .projects-text {
+.projects-text {
     font-size: 16px;
     line-height: 1.88;
     color: var(--secondary-font-color);
-   }
+}
