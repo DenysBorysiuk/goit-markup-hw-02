@@ -213,12 +213,15 @@ background-color: var(--main-bg-color);
 }
 
 .filter-btn:hover,
-.filter-btn:focus,
-.filter-btn:active {
+.filter-btn:focus {
     background-color: var(--acent-color);
     color: var(--main-light);
 }
-    
+
+.current-btn {
+    background-color: var(--acent-color);
+    color: var(--main-light);
+}
 
    /* projects */
 
