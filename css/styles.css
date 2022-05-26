@@ -30,13 +30,16 @@ body {
 
 .container {
     margin: 0 auto;
-    padding-left: 0;
     width: 1170px;
+    box-sizing:border-box;
     
 }
 
 .list {
     list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
 }
 
 .link {
@@ -66,13 +69,17 @@ body {
 
     /* Common Styles */
 
+.section {
+    padding-top: 94px;
+}
 
 .section-title{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
-    
+    margin-top: 0;
+    margin-bottom: 0;
     
 }
 
@@ -191,15 +198,10 @@ body {
 
 /* about section */
 
-.about {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
 
 .about-list {
     display: flex;
     justify-content: space-between;
-    padding-left: 0;
 }
 
 .about-title{
@@ -211,14 +213,20 @@ body {
 .about-text {
     line-height: 1.71;
     color: var(--secondary-font-color);
+    width: 270px;
 }
 
 /* doing */
 
-.doing-list {
+
+.doing-list,
+.team-list {
     display: flex;
     justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 94px;
 }
+
 
 /* team section */
 
@@ -226,22 +234,22 @@ body {
     background-color: var(--light-bg-color);
 }
 
-.team-list {
-    display: flex;
-    justify-content: space-between;
+.team-item {
+    background-color: var(--main-light)
 }
 
 .team-title {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.89;
-
+    text-align: center;
 }
 
 .team-text {
     font-size: 16px;
     line-height: 1.89;
     color:  var(--secondary-font-color);
+    text-align: center;
 }
 
 
@@ -249,6 +257,8 @@ body {
 
 .footer {
     background-color: var(--dark-bg-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .footer-logo {
@@ -271,6 +281,13 @@ body {
 
     /* Filter */
 
+.filter-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+
 .filter-btn {
     padding: 6px 22px;
     background: #F5F4FA;
@@ -283,6 +300,10 @@ body {
     cursor: pointer;
     color: inherit;
     border: none;
+}
+
+.filter-item + .filter-item {
+    margin-left: 8px;
 }
 
 .filter-btn:hover,
@@ -298,11 +319,31 @@ body {
 
    /* projects */
 
+.project-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 94px;
+}
+
+.project-item {
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    width: 370px;
+    height: 404px;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.project-item:hover,
+.project-item:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 .projects-title {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-   
 }
 
 .projects-text {
