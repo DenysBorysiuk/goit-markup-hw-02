@@ -151,8 +151,6 @@ body {
 /* hero */
 .hero {
 	background: #2f303a;
-	background-position: center;
-	background-size: cover; 
 }
 
 .hero-title {
