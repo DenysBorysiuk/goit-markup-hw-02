@@ -74,6 +74,7 @@ body {
 
 .section {
 	padding-top: 94px;
+	padding-bottom: 94px;
 }
 
 .section-title {
@@ -150,9 +151,8 @@ body {
 /* hero */
 .hero {
 	background: #2f303a;
-	background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/bg.jpg);
 	background-position: center;
-	background-size: cover;
+	background-size: cover; 
 }
 
 .hero-title {
@@ -223,8 +223,6 @@ body {
 .team-list {
 	display: flex;
 	justify-content: space-between;
-	padding-top: 50px;
-	padding-bottom: 94px;
 }
 
 /* team section */
