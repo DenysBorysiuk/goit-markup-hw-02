@@ -32,7 +32,7 @@ body {
 
 .container {
 	margin: 0 auto;
-	max-width: 1170px;
+	width: 1170px;
 	/* Размер контейнера не зависимо от отступов */
 	box-sizing: border-box;
 }
@@ -83,7 +83,7 @@ body {
 	line-height: 1.16;
 	text-align: center;
 	margin-top: 0;
-	margin-bottom: 0;
+	margin-bottom: 50;
 }
 
 .logo {
@@ -216,7 +216,9 @@ body {
 }
 
 /* doing */
-
+.doing {
+	padding-top: 0px;
+}
 .doing-list,
 .team-list {
 	display: flex;
